@@ -1,0 +1,321 @@
+
+
+/* NAV */
+
+@media only screen and (max-width: 6000px){
+
+p.website-title-nav {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+html {
+  background-color: #D9E8FF;
+}
+.body {
+  padding: 100px 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.subnav {
+  padding: 5% 2% 2% 0;
+}
+
+h1.website-title, p.website-title{
+    /* color: #2651FC; */
+}
+
+a.subnav-item {
+  margin:0;
+  text-decoration: none;
+  display:block;
+}
+
+h4{
+  margin:0;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+a.subnav-item:hover{
+  text-decoration: underline;
+}
+.person-links{
+  width: 30vw;
+  margin: 0;
+
+  padding: 2% 0;
+}
+span a{
+  padding: 5px 20px 0 0 ;
+  text-decoration: none;
+}
+
+span a:hover {
+  text-decoration: underline;
+}
+
+.projects{
+  padding: 5% ;
+  
+  width: 50vw;
+}
+.nav {
+  padding: 40px 5% 0 5%;
+  width: 100%;
+  position: fixed;
+  background-color: #D9E8FF;
+}
+
+p.nav-item{
+  padding: 0 50px 0 0;
+  display: inline-block;
+}
+
+.intro{
+  padding: 2% 0 0 0;
+  width: 40vw;
+  margin: 0;
+  display:inline-flex;
+  
+}
+.timeline-item, .toolkit-item , .project-item{
+  float: left;
+  height: 250px;
+  width: 30vh;
+  padding: 0 2% 2% 0;
+  margin-right: 5%;
+}
+
+
+.timeline-item{
+  height: 150px;
+}
+
+
+p {
+  font-size: .9rem;  
+  line-height: 20px;
+}
+
+h2{
+  font-size: 1rem;
+  font-weight: 700;
+  z-index: 3;
+}
+
+a{
+  color:black;
+}
+
+ p.description:hover, h2:hover{
+    text-decoration: underline;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 200;
+
+}
+
+h1 {
+  font-size: 1rem;  
+}
+
+
+.human-timeline, {
+  display: block;
+}
+
+
+.my-toolkit{
+  display:inline-flex;
+  padding-left: 100px;
+}
+
+
+
+
+.project-item{
+  border-top: 3px solid transparent;
+  padding: 2% 0;
+  margin-bottom: 5%;
+  
+}
+
+.project-item:hover{
+  border-top: 3px solid white;
+}
+
+img.profile {
+  position: fixed;
+  top: 18%;
+  left: 50%;
+  width: 40vw;
+  /* bring your own prefixes */
+  transform: translate(20%, 10%);
+  z-index: -1
+}
+
+
+img.project-item {
+  position:absolute;
+}
+
+img.github {
+  display: block;
+  width: 20px;
+}
+a img { display:none; }
+a:hover img { display:block; }
+
+
+/* Project */
+.project-container {
+  position: relative;
+  left: 25%;
+  width: 75%;
+}
+
+.projects-homepage {
+  width: 60vw;
+}
+.subnav {
+
+  float: left;
+  height: 100%;
+  position: fixed;
+  border-right: 1px solid grey;
+}
+
+.project-intro{
+  padding-bottom: 20px;
+}
+.project-details {
+  float: left;
+  width: 200px;  
+  padding-right: 20px;
+  
+}
+.project-summary{
+  width: 50%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  overflow: hidden;
+  float: left;
+  width: 50vw;
+  margin: 5px;
+  
+}
+
+img.gallery-image {
+  margin:auto;
+  width: 50vw;
+}
+
+/* projects page */
+
+
+
+.projects-image-container {
+  width: 40%;
+  float: left;
+  overflow: hidden;
+  height: 30vh;
+  margin: 2%;
+}
+
+img.projects-image {
+  height: 100%;
+  vertical-align: middle;
+}
+
+
+h3 {
+  font-size: .8rem;
+  
+}
+@media only screen and (max-width: 900px){
+
+
+
+.toolkit-item{
+  width: 50vw;
+}
+.my-toolkit{
+  display:inline-flex;
+  padding-left: 0px;
+}
+
+
+
+a.subnav-item{
+  display:none;
+}
+
+.subnav{
+  display: none;
+}
+
+
+.project-container {
+  position: relative;
+  left: 5px;
+
+  width: 95%;
+  margin:auto;
+}
+
+
+.project-summary {
+  width: 90%;
+}
+
+p.nav-item{
+  padding: 0 15px 0 0 ;
+}
+
+.nav{
+  padding-top: 5px;
+}
+.body {
+  padding: 50px 5%;
+}
+.image-container{
+  width: 100%;
+}
+
+.intro {
+  width: 90vw;
+  display: block;
+}
+
+img.gallery-image {
+  margin: auto;
+  width: 90vw;
+}
+
+}    
+
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.is-hidden {
+  display: none; }
+
+.is-visible {
+  display: block; }
+
+}
